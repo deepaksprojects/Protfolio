@@ -1,0 +1,20 @@
+{
+  "description": "Projects which gives me boost to learn and earn as a MERN Stack",
+  "githubUsername": "deepaksprojects",
+  "avatarUrl": "",
+  "displayName": "Deepak gupta",
+  "email": "deepakguptaswork@gmail.com",
+  "orgs": [
+    {
+      "url": "https://www.tractorjunction.com/",
+      "name": "Tractor Junction",
+      "avatarUrl": "./assets/TJ_LOGO_en.svg"
+    }
+  ],
+  "linkedinProfile": "deepakguptaswork",
+  "socials": [""],
+  "projects": {
+    "blacklist": [],
+    "heroNames": []
+  }
+}
