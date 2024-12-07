@@ -19,16 +19,21 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-wrap-balancer": "^1.1.1"
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.30.2",
+    "react-wrap-balancer": "^1.1.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@opentelemetry/api": "^1.9.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.15",
+    "@types/node": "22.10.1",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
     "postcss-nesting": "^13.0.0",
     "tailwindcss": "^3.4.10",
-    "tailwindcss-debug-screens": "^2.2.1"
+    "tailwindcss-debug-screens": "^2.2.1",
+    "typescript": "5.7.2"
   }
 }
