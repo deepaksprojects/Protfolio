@@ -22,7 +22,7 @@ import {
   SiReact,
   SiSwift,
   SiTailwindcss,
-  SiVisualstudio,
+  SiVsco,
 } from "react-icons/si";
 import { withHeader } from "../components";
 
@@ -167,7 +167,7 @@ const SkillsPage = () => {
         {
           name: "VS Code",
           description: "Powerful code editor by Microsoft",
-          icon: <SiVisualstudio size={iconSize} color={iconColor} />,
+          icon: <SiVsco size={iconSize} color={iconColor} />,
         },
         {
           name: "Play Store",
