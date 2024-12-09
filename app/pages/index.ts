@@ -1,2 +1,3 @@
 import SkillsPage from "./skills";
-export { SkillsPage };
+import Projects from "./projects";
+export { SkillsPage, Projects };
