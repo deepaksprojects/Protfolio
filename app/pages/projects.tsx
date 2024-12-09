@@ -99,7 +99,6 @@ const projects = [
       "https://play.google.com/store/apps/details?id=com.tractorjunction.vms&hl=en",
     sourceLink: "#",
     image: "/assets/vms.png",
-    bgColor: "#009688",
   },
 ];
 
