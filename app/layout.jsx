@@ -2,6 +2,7 @@ import "../global.css";
 import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 import data from "../data.json";
+import { Analytics } from "@vercel/analytics/react";
 
 const username = process.env.GITHUB_USERNAME || data.githubUsername;
 const displayName = "Deepak Gupta";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
         }`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
