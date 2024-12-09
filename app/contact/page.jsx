@@ -11,11 +11,12 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import data from "../../data.json";
 import { getUser, getSocialAccounts } from "../data";
+import { withHeader } from "../components";
 
 // TODO: make it edge once Turbopack supports it.
 export const runtime = "nodejs";
 
-export default async function Contacts({ searchParams: { customUsername } }) {
+async function Contacts({ searchParams: { customUsername } }) {
   const username =
     customUsername || process.env.GITHUB_USERNAME || data.githubUsername;
   const linkedinProfile = data.linkedinProfile;
@@ -57,7 +58,6 @@ export default async function Contacts({ searchParams: { customUsername } }) {
 
   return (
     <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
-      <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
         <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
           {contacts.map((s) => {
@@ -100,3 +100,5 @@ export default async function Contacts({ searchParams: { customUsername } }) {
     </div>
   );
 }
+
+export default withHeader(Contacts);

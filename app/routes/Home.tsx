@@ -73,6 +73,15 @@ function HomeRoute() {
             <UserText />
           </Suspense>
         </h2>
+        <div className="flex justify-center mt-4">
+          <a
+            href="/resume.pdf"
+            download="Deepak_Gupta_Resume.pdf"
+            className="bg-[#1f2937] text-white hover:bg-[#568e59] hover:text-black px-6 py-3 rounded-lg shadow-md transition-all duration-300"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
     </div>
   );
